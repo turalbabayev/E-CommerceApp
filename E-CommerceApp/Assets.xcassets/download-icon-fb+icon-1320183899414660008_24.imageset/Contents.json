@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "download-icon-fb+icon-1320183899414660008_24.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
