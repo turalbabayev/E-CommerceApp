@@ -48,7 +48,6 @@
 		F62114EC2CBAC6FF00CB32A4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62114EB2CBAC6FF00CB32A4 /* SignUpViewModel.swift */; };
 		F62114EF2CBACA6900CB32A4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F62114EE2CBACA6900CB32A4 /* RxCocoa */; };
 		F62114F22CBAEA8700CB32A4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62114F12CBAEA8700CB32A4 /* ForgotPasswordViewController.swift */; };
-		F62114F72CBAFB5200CB32A4 /* OTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62114F62CBAFB5200CB32A4 /* OTPService.swift */; };
 		F62114FA2CBAFDE000CB32A4 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62114F92CBAFDE000CB32A4 /* ForgotPasswordViewModel.swift */; };
 		F62115002CBB0AED00CB32A4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F62114FF2CBB0AED00CB32A4 /* Alamofire */; };
 		F62115032CBB10C200CB32A4 /* SwiftSMTP in Frameworks */ = {isa = PBXBuildFile; productRef = F62115022CBB10C200CB32A4 /* SwiftSMTP */; };
@@ -135,7 +134,6 @@
 		F62114E82CBAC5E100CB32A4 /* FirestoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreRepository.swift; sourceTree = "<group>"; };
 		F62114EB2CBAC6FF00CB32A4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		F62114F12CBAEA8700CB32A4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		F62114F62CBAFB5200CB32A4 /* OTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPService.swift; sourceTree = "<group>"; };
 		F62114F92CBAFDE000CB32A4 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		F62115092CBC001100CB32A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F621150B2CBC003000CB32A4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -614,7 +612,6 @@
 			children = (
 				F62114E32CBABF7500CB32A4 /* AuthRepository.swift */,
 				F62114E82CBAC5E100CB32A4 /* FirestoreRepository.swift */,
-				F62114F62CBAFB5200CB32A4 /* OTPService.swift */,
 				F6206CEE2CBC6E8C00599B3A /* ProductRepository.swift */,
 			);
 			path = Repo;
@@ -854,7 +851,6 @@
 				F68E0C8D2CBF39F100B064EF /* AllCategoryViewController.swift in Sources */,
 				F6078E672CC1BB6100D75E09 /* PaymentSuccessViewController.swift in Sources */,
 				F62114EC2CBAC6FF00CB32A4 /* SignUpViewModel.swift in Sources */,
-				F62114F72CBAFB5200CB32A4 /* OTPService.swift in Sources */,
 				F6206CED2CBC5BA400599B3A /* Products.swift in Sources */,
 				F68E0CA32CC0182500B064EF /* AllProductTableViewCell.swift in Sources */,
 				F62114E92CBAC5E100CB32A4 /* FirestoreRepository.swift in Sources */,

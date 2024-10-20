@@ -20,7 +20,7 @@ extension UITextField{
     
     func setLeftIcon(_ icon: UIImage) {
         let iconView = UIImageView(frame: CGRect(x: 15, y: 5, width: 20, height: 20))
-        iconView.image = icon.withRenderingMode(.alwaysTemplate)  // Rendering Mode Template
+        iconView.image = icon.withRenderingMode(.alwaysTemplate)
         iconView.tintColor = .lightGray
         
         let iconContainerView: UIView = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 30))
@@ -32,9 +32,9 @@ extension UITextField{
     
     func setRightIcon(_ icon: UIImage, target: Any, action: Selector) {
         let iconView = UIImageView(frame: CGRect(x: 15, y: 5, width: 20, height: 20))
-        iconView.image = icon.withRenderingMode(.alwaysTemplate)  // Rendering Mode Template
+        iconView.image = icon.withRenderingMode(.alwaysTemplate)
         iconView.tintColor = .lightGray
-        iconView.isUserInteractionEnabled = true // İkonun tıklanabilir olmasını sağla
+        iconView.isUserInteractionEnabled = true // İkonun tıklanabilir olmasını sağlıyoruz.
 
         let tapGesture = UITapGestureRecognizer(target: target, action: action)
         iconView.addGestureRecognizer(tapGesture)

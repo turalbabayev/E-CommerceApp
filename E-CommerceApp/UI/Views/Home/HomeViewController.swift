@@ -207,7 +207,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
                 productCell.productRating.text = "\(rating.rating)"
             } else {
                 // Rating yoksa varsayılan değer göster
-                productCell.productRating.text = "5.0"
+                productCell.productRating.text = "4.2"
             }
             
             

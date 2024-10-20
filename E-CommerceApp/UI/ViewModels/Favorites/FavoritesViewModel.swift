@@ -39,21 +39,6 @@ class FavoritesViewModel{
     }
     
     
-    /*
-    func getFavorites(){
-        firestoreRepo.getFavorites(username: username!)
-    }
-    
-    func addToFavorites(id: Int, name: String, price: Int, category: String, brand: String, image: String){
-        firestoreRepo.addToFavorites(username: username!, id: id, name: name, price: price, category: category, brand: brand, image: image)
-    }
-    
-    func removeFromFavorites(id: Int){
-        firestoreRepo.removeFromFavorites(username: username!, id: id)
-        getFavorites()
-    }
-     */
-    
     func getImageURL(for imageName: String) -> String {
         return productRepo.getImageURL(for: imageName)
     }

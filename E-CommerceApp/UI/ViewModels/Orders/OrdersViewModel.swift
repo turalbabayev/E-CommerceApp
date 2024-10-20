@@ -12,7 +12,7 @@ class OrdersViewModel{
     let repository = FirestoreRepository()
     let productRepository = ProductRepository()
 
-    // Kullanıcı adına göre siparişleri getir
+    // Kullanıcı adına göre siparişleri getirme
     func getOrders(for userName: String, completion: @escaping ([Order]?) -> Void) {
         repository.getOrders(for: userName) { orders in
             completion(orders)
