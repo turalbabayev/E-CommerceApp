@@ -25,6 +25,7 @@ class SignUpViewModel{
                     } else {
                         // Kullanıcı adı kaydediliyor
                         UserDefaults.standard.set(username, forKey: "savedUsername")
+                        UserDefaults.standard.set(email, forKey: "savedEmail")
                         self?.onRegisterSuccess?()
                     }
                 }

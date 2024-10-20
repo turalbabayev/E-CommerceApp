@@ -141,7 +141,7 @@
                                     <constraint firstAttribute="width" constant="50" id="nA4-bU-ZqO"/>
                                 </constraints>
                             </activityIndicatorView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0mI-fS-u5L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0mI-fS-u5L">
                                 <rect key="frame" x="16" y="75" width="361" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="VAW-It-72i"/>
@@ -1355,10 +1355,10 @@
                                 <rect key="frame" x="16" y="228.33333333333334" width="361" height="30.000000000000028"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="DSe-tn-qga">
-                                        <rect key="frame" x="0.0" y="5" width="66" height="20"/>
+                                        <rect key="frame" x="0.0" y="5" width="88.333333333333329" height="20"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kategori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3J-cT-Rcy">
-                                                <rect key="frame" x="0.0" y="0.0" width="66" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fiyata Göre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3J-cT-Rcy">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.333333333333329" height="20"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2457,13 +2457,13 @@
                                 <rect key="frame" x="16" y="154.33333333333334" width="361" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cDA-Jg-aoA">
-                                        <rect key="frame" x="0.0" y="10.666666666666661" width="60" height="54.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="7.6666666666666572" width="60" height="60"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="IxM-Bx-yzY"/>
                                             <constraint firstAttribute="height" constant="60" id="kdZ-mL-kTM"/>
                                         </constraints>
-                                        <imageReference key="image" image="location" catalog="system" symbolScale="small"/>
+                                        <imageReference key="image" image="location" symbolScale="small"/>
                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="thin"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s9W-ji-zNJ">
@@ -2562,7 +2562,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WD6-To-ffm">
                                 <rect key="frame" x="16" y="292.33333333333331" width="361" height="75"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="QlC-Vz-pdD">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clipart1392252" translatesAutoresizingMaskIntoConstraints="NO" id="QlC-Vz-pdD">
                                         <rect key="frame" x="0.0" y="7.6666666666666856" width="60" height="60"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -4119,7 +4119,7 @@
                                     <constraint firstAttribute="height" constant="55" id="SFa-yG-sxE"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Fatura Görüntüle">
+                                <buttonConfiguration key="configuration" style="plain" image="download" title="Fatura Görüntüle">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -4436,7 +4436,7 @@
                                     <constraint firstAttribute="height" constant="50" id="nOE-kz-95v"/>
                                 </constraints>
                             </activityIndicatorView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="19X-gF-TfG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="19X-gF-TfG">
                                 <rect key="frame" x="16" y="75" width="361" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="zQ6-yb-lo4"/>
@@ -4857,7 +4857,9 @@
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="circle.dashed" catalog="system" width="128" height="123"/>
         <image name="circle.dashed.inset.filled" catalog="system" width="128" height="123"/>
+        <image name="clipart1392252" width="526" height="316"/>
         <image name="congrats" width="452" height="360"/>
+        <image name="download" width="24" height="24"/>
         <image name="download-icon-fb+icon-1320183899414660008_24" width="24" height="24"/>
         <image name="google" width="48" height="48"/>
         <image name="heart" catalog="system" width="128" height="107"/>
@@ -29015,13 +29017,13 @@ Fgh/ABYIgQAWCIMAFgiFABYaJQAWGioAFho3ABYaOgAWGkcAFhpMABYaVAAWGlcAFhpcABYaZAAAAAAA
 AAQBAAAAAAAAAFEAAAAAAAAAAAAAAAAAFhpnA
 </mutableData>
         </image>
+        <image name="location" width="48" height="48"/>
         <image name="location" catalog="system" width="128" height="119"/>
         <image name="location.fill" catalog="system" width="128" height="119"/>
-        <image name="logo" width="572" height="170"/>
+        <image name="logo" width="166.66667175292969" height="166.66667175292969"/>
         <image name="macbook" width="904" height="840"/>
         <image name="macbookImage" width="172.66667175292969" height="160.33332824707031"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="mastercard" width="1200" height="800"/>
         <image name="minus" catalog="system" width="128" height="26"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
