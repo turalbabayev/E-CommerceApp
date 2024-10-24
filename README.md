@@ -23,8 +23,6 @@ Bu projede, kullanıcıların ürünleri inceleyebileceği, sepetlerine ekleyebi
 
 ## Ekran Görüntüleri 📸
 
-## Ekran Görüntüleri 📸
-
 <p align="center">
   <a href="https://ibb.co/RbsbRT5"><img src="https://i.ibb.co/54S4bh7/1.png" alt="1" width="30%"></a>
   <a href="https://ibb.co/2j20bGL"><img src="https://i.ibb.co/Q6B75yq/2.png" alt="2" width="30%"></a>
